@@ -8,14 +8,16 @@ import { BsFillBootstrapFill } from "react-icons/bs";
 import { FaHtml5 } from "react-icons/fa";
 import { SiTailwindcss } from "react-icons/si";
 import { SiExpress } from "react-icons/si";  // Added Express.js icon
+import { SiDjango } from "react-icons/si";
+
 
 function Techstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
       <Col xs={4} md={2} className="tech-icons">
-        <DiJava />
-        <p style={{ fontSize: "0.3em" }}>Django</p>
-      </Col>
+  <SiDjango />
+  <p style={{ fontSize: "0.6em" }}>Django</p>
+</Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiJavascript1 />
         <p style={{ fontSize: "0.3em" }}>JavaScript (ES6+)</p>
